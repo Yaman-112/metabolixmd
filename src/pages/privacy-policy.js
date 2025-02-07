@@ -1,9 +1,11 @@
 import NavBar from '@/components/NavBar';
 import React from 'react';
+import Head from 'next/head';
 
 const PrivacyPolicy = () => {
     return (
         <section>
+            <Head><title>Privacy Policy - MetabolixMD</title></Head>
             <NavBar />
             <div className="privacy-policy-container p-6 max-w-4xl mx-auto mt-20">
                 <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>

@@ -50,6 +50,7 @@ const PrimaryCareConfirmation = ({ onNext }) => {
           className={`mt-6 p-3 hover:bg-primary/90   w-full py-3 text-white font-semibold rounded-full ${isButtonDisabled ? "bg-gray-400 cursor-not-allowed" : "bg-primary"}`}
           disabled={isButtonDisabled}
           onClick={handleNext}
+          aria-label='Continue'
         >
           Continue
         </button>

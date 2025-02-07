@@ -19,7 +19,7 @@ const CompareModule = ({ img1, img2, desc }) => {
 
                 {/* Divider Image */}
                 <div
-                    style={{ backgroundImage: `url(/images/27.png)` }}
+                    style={{ backgroundImage: `url(/images/27.webp)` }}
                     className='h-[80px] w-[80px] sm:h-[100px] sm:w-[100px] rounded-3xl bg-contain bg-center bg-no-repeat'
                     role="img" 
                     aria-label="Divider Image"

@@ -226,6 +226,7 @@ const BasicsUserInfo = ({ onNext }) => {
             }`}
             onClick={handleNext}
             disabled={isButtonDisabled}
+            aria-label="Next"
           >
             Next
           </button>

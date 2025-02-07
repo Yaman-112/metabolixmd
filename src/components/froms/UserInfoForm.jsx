@@ -74,6 +74,7 @@ const UserInfoForm = ({ onNext }) => {
             }`}
           disabled={isButtonDisabled}
           onClick={handleContinue} // Trigger continue action
+          aria-label="Continue"
         >
           Continue
         </button>

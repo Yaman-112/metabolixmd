@@ -55,6 +55,7 @@ const UploadProfile = ({ onSubmit, loading,img, setImg }) => {
 
                     onClick={onSubmit}
                     disabled={loading || (img ==="")}
+                    aria-label='continue'
                 >
 
                     {loading ? <ClipLoader size={24} color="white" /> : "Continue"}

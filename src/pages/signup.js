@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { ClipLoader } from "react-spinners";
 import { toast } from "react-toastify";
+import Head from "next/head";
 
 const SignupForm = () => {
   const { createUserWithEmailMethod,deleteMyAccount } = useFirebaseAuth(); // Destructure signup method from the hook
@@ -52,6 +53,7 @@ const SignupForm = () => {
 
   return (
     <div>
+      <Head><title>Sign Up - MetabolixMD</title></Head>
       <NavBar />
       <div className="h-screen mt-20 w-full flex items-center justify-center">
         <div className="w-full mx-5 md:w-[500px] ">
@@ -122,6 +124,7 @@ const SignupForm = () => {
               className={`w-full py-3 hover:bg-primary/90  text-white font-semibold rounded-full ${loading ? "bg-gray-400 cursor-not-allowed" : "bg-primary"
                 }`}
               disabled={loading || password !== confirmPassword}
+              aria-label="Sign Up"
             >
               {loading ? <ClipLoader size={24} color="white"/> : "Sign Up"}
             </button>

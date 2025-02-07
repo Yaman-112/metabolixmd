@@ -166,6 +166,7 @@ const ProfileCheckOutForm = ({ prescription }) => {
                         disabled={loading}
                         type="submit"
                         className={`mt-10 hover:bg-primary/90 w-full py-3 text-white font-semibold rounded-full ${loading ? "bg-gray-400" : "bg-primary hover:bg-primary"}`}
+                        aria-label='Checkout'
                     >
                         {loading ? <ClipLoader size={24} color="white" /> : "Checkout"}
                     </button>

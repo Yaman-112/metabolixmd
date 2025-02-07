@@ -150,7 +150,7 @@ const MultiStepForm = () => {
               style={{ width: `${progressPercentage}%` }}
             ></div>
           </div>
-          <img src="images/27.png" className="w-[70px]" alt="Step indicator" />
+          <img src="images/27.webp" className="w-[70px]" alt="Step indicator" />
         </div>
       }
 

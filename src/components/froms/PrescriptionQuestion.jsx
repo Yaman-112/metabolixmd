@@ -42,6 +42,7 @@ const PrescriptionQuestion = ({ onNext }) => {
           className={`mt-6 p-3 text-white w-full font-semibold rounded-full bg-primary hover:bg-primary/90 ${activeTab ? "" : "opacity-50 cursor-not-allowed"}`}
           onClick={handleClick}
           disabled={!activeTab}
+          aria-label='Continue'
         >
           Continue
         </button>

@@ -57,6 +57,7 @@ const GastrointestinalCondtions = () => {
                 : "bg-primary hover:bg-primary"
             }`}
             disabled={isButtonDisabled}
+            aria-label="Next"
           >
             Next
           </button>

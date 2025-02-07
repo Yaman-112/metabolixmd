@@ -51,6 +51,7 @@ const SearchAndSelectAllergies = ({ onNext }) => {
                             <button
                                 className="ml-2 text-white"
                                 onClick={() => removeAllergy(allergy)}
+                                aria-label='close'
                             >
                                 ×
                             </button>

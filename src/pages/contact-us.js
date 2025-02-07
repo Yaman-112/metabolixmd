@@ -1,10 +1,12 @@
 import Footer from '@/components/Footer';
 import NavBar from '@/components/NavBar';
 import React from 'react';
+import Head from 'next/head';
 
 const ContactUs = () => {
     return (
         <div className="min-h-screen">
+            <Head><title>Contact - MetabolixMD</title></Head>
             <NavBar />
             <div className="max-w-4xl mx-auto shadow-lg mt-20 p-8">
                 <h1 className="text-3xl font-bold text-center mb-6">Contact Us</h1>

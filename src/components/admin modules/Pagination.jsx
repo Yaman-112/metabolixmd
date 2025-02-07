@@ -14,6 +14,7 @@ export default function Pagination({ currentPage, totalPages, onPageChange }) {
           key="prev"
           className="hover:bg-gray-200 p-2 px-4 bg-gray-300 text-black rounded-l"
           onClick={() => onPageChange(currentPage - 1)}
+          aria-label="Previous"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -42,6 +43,7 @@ export default function Pagination({ currentPage, totalPages, onPageChange }) {
             : "hover:bg-gray-200 text-black"
         }`}
         onClick={() => onPageChange(1)}
+        aria-label="1"
       >
         1
       </button>
@@ -103,6 +105,7 @@ export default function Pagination({ currentPage, totalPages, onPageChange }) {
           key="next"
           className="hover:bg-gray-200 p-2 px-4 bg-gray-300 text-black rounded-r"
           onClick={() => onPageChange(currentPage + 1)}
+          aria-label="Next"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

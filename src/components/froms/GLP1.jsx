@@ -32,6 +32,7 @@ const GLP1 = ({onNext}) => {
                             onNext({allergy_GLP_1:false},"anyMedication")
                         }
                     }}
+                    aria-label='Continue'
                 >
                     Continue
                 </button>

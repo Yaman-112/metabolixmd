@@ -1,9 +1,11 @@
 import NavBar from '@/components/NavBar'
 import React from 'react'
+import Head from 'next/head'
 
 const Terms = () => {
     return (
         <div>
+            <Head><title>Terms Policy</title></Head>
             <NavBar />
             <div className='container mx-auto'>
                 <h1 className='text-5xl font-semibold'>INFORMED CONSENT | Semaglutide</h1>

@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { ClipLoader } from "react-spinners";
 import { toast } from "react-toastify";
+import Head from "next/head";
 // Import your hook
 
 const LoginForm = () => {
@@ -77,6 +78,7 @@ const LoginForm = () => {
 
   return (
     <div>
+      <Head><title>Login - MetabolixMD</title></Head>
       <NavBar />
       <div className="h-screen mt-20 w-full flex items-center justify-center ">
         {
@@ -98,7 +100,7 @@ const LoginForm = () => {
                   />
                 </div>
 
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center justify-between mb-4 cursor-pointer">
                   <div onClick={() => setisForget(false)} className="text-sm text-primary hover:underline font-semibold">
                     Remember password?
                   </div>
@@ -108,6 +110,7 @@ const LoginForm = () => {
                   className={`w-full py-3 hover:bg-primary/90  text-white font-semibold rounded-full ${loading ? "bg-gray-400 cursor-not-allowed" : "bg-primary"
                     }`}
                   disabled={loading}
+                  aria-label="Reset Password"
                 >
                   {loading ? <ClipLoader size={24} color="white" /> : " Reset"}
                 </button>
@@ -149,8 +152,8 @@ const LoginForm = () => {
                     required
                   />
                 </div>
-                <div className="flex items-center justify-between mb-4">
-                  <div onClick={() => setisForget(true)} className="text-sm text-primary hover:underline font-semibold">
+                <div className="flex items-center justify-between mb-4 ">
+                  <div onClick={() => setisForget(true)} className="text-sm text-primary hover:underline font-semibold cursor-pointer">
                     Forgot your password?
                   </div>
                 </div>
@@ -159,6 +162,7 @@ const LoginForm = () => {
                   className={`w-full   hover:bg-primary/90    flex items-center justify-center py-3 text-white font-semibold rounded-full  ${loading ? "bg-gray-400 cursor-not-allowed" : "bg-primary"
                     }`}
                   disabled={loading}
+                  aria-label="Login"
                 >
 
                   {loading ? <ClipLoader size={24} color="white" /> : " Login"}

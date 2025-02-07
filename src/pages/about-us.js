@@ -4,14 +4,14 @@ import Introduction from '@/components/Intro'
 import MeetExpertBackground from '@/components/MeetExpertBackground'
 import NavBar from '@/components/NavBar'
 import React, { useEffect, useState } from 'react'
-import { useRouter } from 'next/router' // Import useRouter
-
+import { useRouter } from 'next/router'
+import Head from 'next/head';
 
 
 const expertDetails = [
     {
         route: "about-ashley",
-        img: "/images/dr1.png",
+        img: "/images/dr1.webp",
         name: "Ashley Donaldson",
         subName: "FNP-BC",
         isApproved: true,
@@ -41,7 +41,7 @@ const expertDetails = [
     },
     {
         route: "about-mohit",
-        img: "/images/dr4.png",
+        img: "/images/dr4.webp",
         name: "Mohit Chawla",
         subName: "MD",
         isApproved: true,
@@ -68,7 +68,7 @@ const expertDetails = [
     },
     {
         route: "about-joseph",
-        img: "/images/dr3.png",
+        img: "/images/dr3.webp",
         name: "Joseph Rizzo",
         subName: "MD",
         isApproved: true,
@@ -94,7 +94,7 @@ const expertDetails = [
     },
     {
         route: "about-raj",
-        img: "/images/dr2.png",
+        img: "/images/dr2.webp",
         name: "Raj Sabar",
         subName: "MD",
         isApproved: true,
@@ -120,7 +120,7 @@ const expertDetails = [
     },
     {
         route: "about-kurt",
-        img: "/images/dr5.png",
+        img: "/images/dr5.webp",
         name: "Kurt Springmann",
         subName: "MD, JD",
         isApproved: true,
@@ -151,7 +151,6 @@ const AboutUs = () => {
     const { details } = router.query; // Destructure details from query
     const [activeExpert, setActiveExpert] = useState("")
 
-
     // Expert details array
     // Find the active expert based on the details query parameter
     useEffect(() => {
@@ -161,6 +160,7 @@ const AboutUs = () => {
 
     return (
         <div className='font-tt-hoves flex flex-col min-h-screen'>
+            <Head><title>About - MetabolixMD</title></Head>
             <NavBar />
             {
                 details && activeExpert ? (

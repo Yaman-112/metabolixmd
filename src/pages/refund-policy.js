@@ -1,9 +1,11 @@
 import NavBar from '@/components/NavBar';
 import React from 'react';
+import Head from 'next/head';
 
 const RefundPolicy = () => {
     return (
         <section>
+            <Head><title>Refund Policy - MetabolixMD</title></Head>
             <NavBar />
             <div className="privacy-policy-container p-6 max-w-4xl mx-auto mt-20">
                 <h1 className="text-3xl font-bold mb-4">Return & Refund Policy</h1>

@@ -38,6 +38,7 @@ const DiabeticRetinopathy = ({ onNext }) => {
                     className={`mt-6 hover:bg-primary/90  p-3 text-white w-full font-semibold rounded-full ${isButtonDisabled ? "bg-gray-400 cursor-not-allowed" : "bg-primary hover:bg-primary"}`}
                     disabled={isButtonDisabled}
                     onClick={handleContinue}
+                    aria-label='Continue'
                 >
                     Continue
                 </button>

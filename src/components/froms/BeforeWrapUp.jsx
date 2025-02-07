@@ -60,6 +60,7 @@ const BeforeWrapUp = ({ onNext }) => {
                     type="button"
                     className="mt-6 hover:bg-primary/90 p-3 text-white w-full py-3 font-semibold rounded-full bg-primary"
                     onClick={handleContinue}
+                    aria-label='Continue'
                 >
                     Continue
                 </button>

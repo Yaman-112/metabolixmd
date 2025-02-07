@@ -40,7 +40,7 @@ const NavBar = () => {
       <div className='p-5 z-50 shadow-lg top-0 left-0 bg-white w-full fixed flex items-center justify-between gap-10'>
         {/* Logo */}
         <Link href="/">
-          <Image src="/images/logo.png" width={200} height={50} quality={100} alt="Logo" className="w-[150px] md:w-[200px] " />
+          <Image src="/images/logo.webp" width={200} height={50} quality={100} alt="Logo" className="w-[150px] md:w-[200px] " />
         </Link>
 
         {/* Hamburger Menu for Mobile */}
@@ -49,6 +49,7 @@ const NavBar = () => {
             id="mobile-menu-toggle"
             className="cursor-pointer focus:outline-none "
             onClick={handleMobileMenuToggle}
+            aria-label='Menu Toggle'
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12" /><line x1="4" x2="20" y1="6" y2="6" /><line x1="4" x2="20" y1="18" y2="18" /></svg>
           </button>
@@ -117,6 +118,7 @@ const NavBar = () => {
                   handleMobileMenuToggle()
                 }}
                 className="text-lg text-red-500"
+                aria-label='Logout'
               >
                 Logout
               </button>

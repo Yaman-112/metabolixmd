@@ -56,6 +56,7 @@ const EthnicityForm = ({onNext}) => {
             }`}
             disabled={isButtonDisabled}
             onClick={()=>onNext({describe_yourself:selectedEthnicities},"beforeWrapUp")}
+            aria-label="Next"
           >
             Next
           </button>

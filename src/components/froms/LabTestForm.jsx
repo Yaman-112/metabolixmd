@@ -35,6 +35,7 @@
               type="button"
               className="w-full hover:bg-primary/90  py-3 text-white font-semibold rounded-full bg-primary hover:bg-primary"
               onClick={handleProceed}
+              aria-label="Proceed"
             >
               I want to proceed
             </button>
@@ -42,6 +43,7 @@
               type="button"
               className="w-full py-3 text-black font-semibold rounded-full border border-gray-300 hover:bg-gray-50"
               onClick={handleNotProceed}
+              aria-label="Do not Proceed"
             >
               I do not want to proceed
             </button>

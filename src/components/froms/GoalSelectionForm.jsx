@@ -61,6 +61,7 @@ const GoalSelectionForm = ({ onNext }) => {
             }`}
             disabled={isButtonDisabled}
             onClick={handleContinue} // Trigger the continue action
+            aria-label="Continue"
           >
             Continue
           </button>

@@ -83,6 +83,7 @@ const UploadPrescription = ({onNext}) => {
             }`}
           disabled={!checked || loading}
           onClick={handleUpload}
+          aria-label='upload'
         >
           {
             loading ?

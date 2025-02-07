@@ -128,6 +128,7 @@ const nextYear = currentYear + 1;
                   type="button"
                   className={`mt-6 p-3 hover:bg-primary/90  text-white w-full py-3 font-semibold rounded-full bg-primary hover:bg-primary`}
                   onClick={handleContinue} 
+                  aria-label='continue'
                 >
                   Continue
                 </button>

@@ -86,6 +86,7 @@ const HeartDiseaseForm = ({ onNext }) => {
             }`}
             disabled={isButtonDisabled}
             onClick={handleNext}
+            aria-label="Continue"
           >
             Continue
           </button>

@@ -321,6 +321,7 @@ const OrdersList = () => {
                 <button
                   className="bg-gray-300 px-4 py-2 rounded-md"
                   onClick={() => setIsView(false)}
+                  aria-label='Close Button'
                 >
                   Close
                 </button>
@@ -347,12 +348,14 @@ const OrdersList = () => {
                 <button
                   onClick={() => { setIsStatusPopupOpen(false); setSelectedOrder(""); setNewStatus("") }}
                   className="bg-gray-300 px-4 py-2 rounded-md"
+                  aria-label='Close Button'
                 >
                   Close
                 </button>
                 <button
                   onClick={confirmStatusChange}
                   className="bg-blue-500 text-white px-4 py-2 rounded-md"
+                  aria-label='Confirm Button'
                 >
                   Confirm
                 </button>
@@ -393,6 +396,7 @@ const OrdersList = () => {
                 <button
                   onClick={() => { setIsMeetPopupOpen(false); setSelectedOrder(""); setSchMeet({ meetLink: "", time: "" }) }}
                   className="bg-gray-300 px-4 py-2 rounded-md"
+                  aria-label='Close Button'
                 >
                   Close
                 </button>
@@ -403,6 +407,7 @@ const OrdersList = () => {
                     ? "bg-blue-200 cursor-not-allowed"
                     : "bg-blue-500 text-white"
                     }`}
+                  aria-label='Confirm button'
                 >
                   Confirm
                 </button>
@@ -436,6 +441,7 @@ const OrdersList = () => {
                 <button
                   onClick={() => { setIsDosePopupOpen(false); setSelectedDose(""); setSelectedOrder("") }}
                   className="bg-gray-300 px-4 py-2 rounded-md"
+                  aria-label='Close Button'
                 >
                   Close
                 </button>
@@ -446,6 +452,7 @@ const OrdersList = () => {
                     ? "bg-blue-200 cursor-not-allowed"
                     : "bg-blue-500 text-white"
                     }`}
+                  aria-label='Confirm button'
                 >
                   Confirm
                 </button>

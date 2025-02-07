@@ -15,7 +15,7 @@ const MeetExpertBackground = ({route, name, subName, mainRole, designation,isApp
                             
                             {children}
                         </div>
-                        <Image src="/images/orange-icon.png" alt="icon" width={40} height={35}  className='z-20 h-[35px] w-[40px] absolute left-5 bottom-10' />
+                        <Image src="/images/orange-icon.webp" alt="icon" width={40} height={35}  className='z-20 h-[35px] w-[40px] absolute left-5 bottom-10' />
                     </div>
 
                 </div>

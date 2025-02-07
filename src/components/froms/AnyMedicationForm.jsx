@@ -92,6 +92,7 @@ const AnyMedicationForm = ({onNext}) => {
             }`}
             disabled={isButtonDisabled}
             onClick={ handleContinue }
+            aria-label="Next"
           >
             Next
           </button>

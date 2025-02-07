@@ -39,6 +39,7 @@ const PageNavigations = () => {
                 <button
                     onClick={() => handleLogout()}
                     className={`w-full block text-sm py-3 px-5 rounded-full  bg-primary  font-medium text-white`}
+                    aria-label='Logout'
                 >
                     Logout
                 </button>

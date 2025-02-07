@@ -206,10 +206,10 @@ const PrescriptionList = () => {
             <div className="bg-white p-5 rounded-md">
               <p>Are you sure you want to accept this prescription?</p>
               <div className="flex justify-end gap-3 mt-4">
-                <button className="bg-green-500 text-white px-4 py-2 rounded-md" onClick={handleApprove}>
+                <button className="bg-green-500 text-white px-4 py-2 rounded-md" onClick={handleApprove} aria-label='Yes Button'>
                   Yes
                 </button>
-                <button className="bg-gray-300 px-4 py-2 rounded-md" onClick={() => setIsApproveModalOpen(false)}>
+                <button className="bg-gray-300 px-4 py-2 rounded-md" onClick={() => setIsApproveModalOpen(false)} aria-label='Yes Button'>
                   No
                 </button>
               </div>
@@ -223,10 +223,10 @@ const PrescriptionList = () => {
             <div className="bg-white p-5 rounded-md">
               <p>Are you sure you want to reject this prescription?</p>
               <div className="flex justify-end gap-3 mt-4">
-                <button className="bg-red-500 text-white px-4 py-2 rounded-md" onClick={handleReject}>
+                <button className="bg-red-500 text-white px-4 py-2 rounded-md" onClick={handleReject} aria-label='Yes Button'>
                   Yes
                 </button>
-                <button className="bg-gray-300 px-4 py-2 rounded-md" onClick={() => setIsRejectModalOpen(false)}>
+                <button className="bg-gray-300 px-4 py-2 rounded-md" onClick={() => setIsRejectModalOpen(false)} aria-label='No Button'>
                   No
                 </button>
               </div>
@@ -243,7 +243,7 @@ const PrescriptionList = () => {
                 <a href={selectedImage} target='_blank' className="bg-green-300 px-4 py-2 rounded-md" download>
                   Download
                 </a>
-                <button className="bg-gray-300 px-4 py-2 rounded-md" onClick={() => setIsImageModalOpen(false)}>
+                <button className="bg-gray-300 px-4 py-2 rounded-md" onClick={() => setIsImageModalOpen(false)} aria-label='Close Button'>
                   Close
                 </button>
               </div>

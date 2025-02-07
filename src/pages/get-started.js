@@ -3,6 +3,7 @@ import MultiStepForm from '@/components/MultiStepForm'
 import NavBar from '@/components/NavBar'
 import { getMethod } from '@/services/API/ApiMethod';
 import React, { useEffect, useState } from 'react'
+import Head from 'next/head';
 
 const GetStarted = () => {
   const [userOrders, setUserOrders] = useState([]);
@@ -23,6 +24,7 @@ const GetStarted = () => {
   }, []);
   return (
     <div>
+      <Head><title>Get Started - MetabolixMD</title></Head>
       <NavBar />
 
 

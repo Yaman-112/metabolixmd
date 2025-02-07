@@ -45,7 +45,7 @@ const WeightLossMedication = () => {
                         Medication Online */}
                         Unlock your metabolic health and <br /> weight loss potential with
                     </h1>
-                    <img src="/images/orange-metabolix.png" className='max-w-[150px] md:max-w-[170px] mx-auto md:mx-0 mt-2' />
+                    <img src="/images/orange-metabolix.webp" className='max-w-[150px] md:max-w-[170px] mx-auto md:mx-0 mt-2' />
                     <p className='mt-3 text-sm  text-zinc-500'>
                         Discover our revolutionary GLP-1, GLP-1/GIP program, expertly crafted to support your journey to a healthier, happier you. Our dedicated team will guide you every step of the way.
 
@@ -80,7 +80,7 @@ const WeightLossMedication = () => {
                         </Link>
                     </div>
                 </div>
-                <div style={{ backgroundImage: `url(/images/medicine.png)` }} className='bg-[#d3d2cc] min-h-[300px] flex-1 bg-contain  bg-center bg-no-repeat'>
+                <div style={{ backgroundImage: `url(/images/medicine.webp)` }} className='bg-[#d3d2cc] min-h-[300px] flex-1 bg-contain  bg-center bg-no-repeat'>
 
                 </div>
             </section>
@@ -129,10 +129,10 @@ const WeightLossMedication = () => {
                                     In Stock
                                 </div>
                             </div>
-                            <div style={{ backgroundImage: `url(/images/41.png)` }} className='h-[400px] min-w-full md:min-w-[350px]  flex    bg-contain bg-right bg-no-repeat'>
+                            <div style={{ backgroundImage: `url(/images/41.webp)` }} className='h-[400px] min-w-full md:min-w-[350px]  flex    bg-contain bg-right bg-no-repeat'>
                                 <div className='flex flex-col justify-between items-center'>
                                     <div></div>
-                                    <div className='flex items-center bg-brown-400 gap-5  drop-shadow-2xl backdrop-filter bg-clip-padding backdrop-blur-md bg-opacity-100 px-5 py-3  rounded-3xl '>
+                                    <div className='flex items-center bg-brown-400 gap-5  drop-shadow-2xl backdrop-filter bg-clip-padding backdrop-blur-xl bg-opacity-100 px-5 py-3  rounded-3xl '>
                                         <p className='text-sm md:text-lg text-white '>See If <b className='text-primary'>GLP-1s</b> are right for you </p>
 
                                         {
@@ -177,7 +177,7 @@ const WeightLossMedication = () => {
                                     In Stock
                                 </div>
                             </div>
-                            <div style={{ backgroundImage: `url(/images/medicine-2.png)` }} className='h-[400px] min-w-full md:min-w-[350px]  flex    bg-contain bg-right bg-no-repeat'>
+                            <div style={{ backgroundImage: `url(/images/medicine-2.webp)` }} className='h-[400px] min-w-full md:min-w-[350px]  flex    bg-contain bg-right bg-no-repeat'>
                                 <div className='flex flex-col justify-between items-center'>
                                     <div></div>
                                     <div className='flex items-center bg-brown-400 gap-5  drop-shadow-2xl backdrop-filter bg-clip-padding backdrop-blur-md bg-opacity-100 px-5 py-3  rounded-3xl '>
@@ -224,7 +224,7 @@ const WeightLossMedication = () => {
                                     In Stock
                                 </div>
                             </div>
-                            <div style={{ backgroundImage: `url(/images/42.png)` }} className='h-[400px] min-w-full md:min-w-[350px]  flex    bg-contain bg-right bg-no-repeat'>
+                            <div style={{ backgroundImage: `url(/images/42.webp)` }} className='h-[400px] min-w-full md:min-w-[350px]  flex    bg-contain bg-right bg-no-repeat'>
                                 <div className='flex flex-col justify-between items-center'>
                                     <div></div>
                                     <div className='flex items-center bg-brown-400 gap-5  drop-shadow-2xl backdrop-filter bg-clip-padding backdrop-blur-md bg-opacity-100 px-5 py-3  rounded-3xl '>
@@ -263,9 +263,9 @@ const WeightLossMedication = () => {
                 </p>
                 
             </section>
-            <section style={{ backgroundImage: "url(/images/20.png)" }} className='h-screen   bg-clip-padding backdrop-blur-md  flex flex-col justify-center   mt-10 bg-cover bg-no-repeat bg-center bg-opacity-50 '>
-                <div className='md:mx-20  '>
-                    <h2 className='text-3xl  w-fit md:text-4xl lg:text-5xl pl-5 '>
+            <section style={{ backgroundImage: "url(/images/20.webp)" }} className='h-screen   bg-clip-padding backdrop-blur-md  flex flex-col justify-center   mt-10 bg-cover bg-no-repeat bg-center bg-opacity-50 '>
+                <div className='md:mx-20'>
+                    <h2 className='text-3xl backdrop-blur-xl rounded-3xl py-3 px-5 w-fit md:text-4xl lg:text-5xl pl-5 '>
                         Looking to<b className=''> shed </b>some <br />
                         pounds?
                     </h2>
@@ -277,7 +277,7 @@ const WeightLossMedication = () => {
 
                     <div className='flex items-center mt-20'>
 
-                        <div style={{ backgroundImage: "url(images/orange-logo.png)" }} className='w-[250px] h-24 bg-contain bg-center bg-no-repeat'>
+                        <div style={{ backgroundImage: "url(images/orange-logo.webp)" }} className='w-[250px] h-24 bg-contain bg-center bg-no-repeat'>
 
                         </div>
 
@@ -291,10 +291,10 @@ const WeightLossMedication = () => {
                         <h2 className='text-2xl md:text-3xl  text-primary text-center '>
                             Weight loss treatment from
                         </h2>
-                        <img src="/images/orange-metabolix.png" className='max-w-[150px] md:max-w-[200px] mx-auto mt-2' />
+                        <img src="/images/orange-metabolix.webp" className='max-w-[150px] md:max-w-[200px] mx-auto mt-2' />
                     </div>
                     <div className='max-w-[1440px] '>
-                        <img src="/images/img-1.png" className='object-cover max-w-full' />
+                        <img src="/images/img-1.webp" className='object-cover max-w-full' />
                     </div>
                 </div>
 
@@ -336,13 +336,13 @@ const WeightLossMedication = () => {
                 </h2>
 
                 <CompareModule
-                    img1="/images/21.png"
-                    img2="/images/22.png"
+                    img1="/images/21.webp"
+                    img2="/images/22.webp"
                     desc="Transformation after taking GLP-1, GLP-1/GIP agonists medication" />
 
                 <CompareModule
-                    img1="/images/38.png"
-                    img2="/images/39.png"
+                    img1="/images/38.webp"
+                    img2="/images/39.webp"
                     desc="Transformation after taking GLP-1, GLP-1/GIP agonists medication" />
             </section>
             <section className='flex flex-wrap p-5 gap-10 justify-between md:p-10 md:mb-20'>
@@ -440,7 +440,7 @@ const WeightLossMedication = () => {
 
                     <div>
                         <b>WARNING:</b> <span className="text-orange-400">RISK OF THYROID C-CELL TUMORS</span> See full prescribing information for complete boxed warning.
-                        <ul class="list-disc px-10 my-5">
+                        <ul className="list-disc px-10 my-5">
                             <li>
                                 In rodents, SEMAGLUTIDE/TIRZEPATIDE causes thyroid C-cell tumors in clinically relevant exposures. It is unknown whether these medications cause thyroid C-cell tumors, including medullary thyroid carcinoma (MTC), in humans as the human relevance of SEMAGLUTIDE/TIRZEPATIDE-induced rodent thyroid C-cell tumors has not been determined.
                             </li>
@@ -453,7 +453,7 @@ const WeightLossMedication = () => {
                 </div>
 
                 <h4 className="font-semibold mt-5">Do not take COMPOUNDED SEMAGLUTIDE/TIRZEPATIDE if you:</h4>
-                <ul class="list-disc px-10 my-5">
+                <ul className="list-disc px-10 my-5">
                     <li>Have a personal or family history of medullary thyroid carcinoma (MTC) or in patients with Multiple Endocrine Neoplasia syndrome type 2 (MEN2).</li>
                     <li>Have been diagnosed with pancreatitis or have a history of pancreatitis.</li>
                     <li>Have a diagnosis or history of gastroparesis. This includes problems with your stomach, such as slowed emptying or problems with digesting food.</li>
@@ -463,7 +463,7 @@ const WeightLossMedication = () => {
 
 
                 <h4 className="font-semibold mt-5">WARNINGS AND PRECAUTIONS</h4>
-                <ul class="list-disc px-10 my-5">
+                <ul className="list-disc px-10 my-5">
                     <li>Acute Pancreatitis: Acute and chronic pancreatitis have been reported in clinical studies. Discontinue promptly if pancreatitis is suspected. Symptoms include persistent severe abdominal pain, sometimes radiating to the back with or without vomiting. Do not restart if pancreatitis is confirmed.</li>
                     <li>Acute Gallbladder Disease: Acute events of gallbladder disease such as cholelithiasis or cholecystitis have been reported in clinical trials. If cholelithiasis is suspected, gallbladder studies and clinical follow-up are indicated.</li>
                     <li>Gastroparesis: Uncommon, but more serious, gastrointestinal adverse effects may occur more frequently with GLP-1, GLP-1/GIP receptor agonists than with other weight loss agents.</li>
